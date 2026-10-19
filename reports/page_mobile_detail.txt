@@ -1,0 +1,106 @@
+keyboard_double_arrow_left
+📡 扫描控制
+
+先选 N，再按需调整扫描深度。改变 N 不会重新抓行情。
+
+潜在投机榜 N
+
+活跃投机榜 N
+
+扫描深度
+
+宏观情景假设
+
+keyboard_arrow_right
+
+高级筛选（会重新扫描）
+
+🔄 刷新行情（清空缓存）
+
+首次扫描约 20–60 秒；云端免费实例可能更慢。
+
+⚠️ 本工具仅用于量化研究与风险识别，不构成投资建议。“投机”意味着高波动、高回撤与流动性风险，任何排名都可能失效。
+
+模型 2026.10-r1 · 数据：东方财富 / 腾讯
+
+keyboard_double_arrow_right
+📡 A股双轨投机雷达
+全 A 股扫描 · 潜在投机 / 活跃投机双模型 · 严格使用信号日及之前数据
+keyboard_arrow_right
+
+数据提示（1）
+
+当前结果使用了缓存数据，请核对信号日与快照时间后再使用。
+
+信号基准 · 2026-10-16 收盘
+快照 · 2026-10-19 11:27
+市场 · 防御（28）
+全市场 5,562 只 · 基础域 4,404
+耗时 17.2s · 模型 2026.10-r1
+⚠️ 这是“投机候选排序”，不是上涨预测。排名靠前只代表在模型特征上更符合投机资金的偏好；高收益叙事往往同时意味着高波动、高回撤、公告/监管/流动性风险。请独立核查并严格控制仓位。
+
+总览
+
+潜在投机榜
+
+活跃投机榜
+
+个股详情
+
+宏观 / 方法
+
+选择个股
+
+达仁堂 600329
+中药Ⅱ · 主板 · 信号日 2026-10-16 · 综合分 72.3（潜在投机 #1）· 稳健度 87 · 风险 中高
+主题：创新药与医药
+<div class='metric-grid'><div class='metric-box'><div class='m-label'>信号收盘</div><div class='m-value'>37.20</div><div class='m-note'>前复权</div></div><div class='metric-box'><div class='m-label'>20日涨幅</div><div class='m-value'>6.3%</div><div class='m-note'>相对强度 8.7%</div></div><div class='metric-box'><div class='m-label'>60日涨幅</div><div class='m-value'>-4.5%</div><div class='m-note'>距60日高 -5.6%</div></div><div class='metric-box'><div class='m-label'>流通市值</div><div class='m-value'>232.1亿</div><div class='m-note'>20日均额 0.71亿</div></div><div class='metric-box'><div class='m-label'>换手(20)</div><div class='m-value'>0.35%</div><div class='m-note'>RSI14 76.4</div></div><div class='metric-box'><div class='m-label'>PE(TTM)</div><div class='m-value'>37.1</div><div class='m-note'>PB 5.30</div></div><div class='metric-box'><div class='m-label'>净利同比</div><div class='m-value'>-6,655.2%</div><div class='m-note'>营收同比 -739.2%</div></div><div class='metric-box'><div class='m-label'>风险罚分</div><div class='m-value'>0.0</div><div class='m-note'>稳健度 87</div></div></div>
+分项画像
+赛道政策催化
+波动压缩蓄势
+资金吸筹
+位置与赔率
+基本面拐点
+关注度低位
+投机弹性
+市场环境匹配
+0
+20
+40
+60
+80
+100
+价格与均线
+32
+34
+36
+38
+40
+42
+44
+Mar 2026
+May 2026
+Jul 2026
+Sep 2026
+0
+50k
+100k
+K线
+MA20
+MA60
+成交量
+模型解释
+为什么是“潜在”：当前不是追涨股票，而是筛选尚未充分交易、但具备产业催化与筹码沉淀的标的。主要得分来自 资金吸筹 96分、波动压缩蓄势 79分、关注度低位 76分。
+位置：距 52 周高点 -19.4%，距 60 日高点 -5.6%；MA120 上方，MA250 下方。
+筹码：20 日平均换手 0.35%，20 日均额 0.71亿；CMF20 0.127，OBV 斜率（归一） 0.337。
+压缩：ATR14/价格 0.018，60 日波幅 0.149，20日/60日量能比 0.71。
+主题：创新药与医药；行业 20 日 -2.5%，个股相对行业 8.7%。
+风险与观察位
+模型未触发硬性风险标签，但这只说明“没有命中规则”，不代表低风险。投机仓位的止损与仓位管理仍是第一位的。
+<div class='metric-grid'><div class='metric-box'><div class='m-label'>20日均线</div><div class='m-value'>35.30</div><div class='m-note'>多空观察线</div></div><div class='metric-box'><div class='m-label'>60日均线</div><div class='m-value'>36.22</div><div class='m-note'>趋势观察线</div></div><div class='metric-box'><div class='m-label'>60日低点</div><div class='m-value'>33.83</div><div class='m-note'>风险参考位</div></div><div class='metric-box'><div class='m-label'>60日高点</div><div class='m-value'>39.39</div><div class='m-note'>前高/套牢区</div></div></div>
+
+“观察位”只是模型计算出的价格参考，不是买卖指令。
+
+keyboard_arrow_right
+
+查看分项贡献与原始特征

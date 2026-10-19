@@ -1,0 +1,35 @@
+📡 扫描控制
+
+先选 N，再按需调整扫描深度。改变 N 不会重新抓行情。
+
+潜在投机榜 N
+
+活跃投机榜 N
+
+扫描深度
+
+宏观情景假设
+
+keyboard_arrow_right
+
+高级筛选（会重新扫描）
+
+🔄 刷新行情（清空缓存）
+
+首次扫描约 20–60 秒；云端免费实例可能更慢。
+
+⚠️ 本工具仅用于量化研究与风险识别，不构成投资建议。“投机”意味着高波动、高回撤与流动性风险，任何排名都可能失效。
+
+模型 2026.10-r1 · 数据：东方财富 / 腾讯
+
+keyboard_double_arrow_right
+📡 A股双轨投机雷达
+全 A 股扫描 · 潜在投机 / 活跃投机双模型 · 严格使用信号日及之前数据
+
+扫描失败：DataError: 1.000001 K 线获取失败: 请求 push2his.eastmoney.com/api/qt/stock/kline/get 失败: ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?sec
+
+排查建议：1）确认本机/云端能访问 push2.eastmoney.com 与 push2his.eastmoney.com；2）首次运行可稍后重试；3）本地可运行 python scripts/scan.py --n 10 查看详细日志。
+
+keyboard_arrow_right
+
+错误详情
